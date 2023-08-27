@@ -1,0 +1,22 @@
+{
+  "policyId": "org.acme:my-policy",
+  "attributes" : {
+    "node_id": {
+      "properties": {
+        "value": "0"
+      }
+    }
+  },
+  "features": {
+    "dataRate": {
+      "properties": {
+        "value" : 100
+      }
+    },
+    "AverageDelay": {
+      "properties": {
+        "value" : 0
+      }
+    }
+  }
+}
