@@ -12,4 +12,7 @@ This repository represents the artifact of our paper entitled : "Constructing a 
   2. Creates a device _demo-device-001_ in this tenant.
   3. Creates a policy _org.acme:my-policy_ for Ditto.
   4. Creates a thing using the _devicePrototype.json_ file.
-  5. Sets up the connection between Ditto and Hono via AMQP. 
+  5. Sets up the connection between Ditto and Hono via AMQP.
+
+**ProducerConsumerPN.ipynb** : this is the Timed Petri-net producer-consumer model that we developed. It requires the installation of SNAKES API with ''pip install SNAKES''.
+**MQTT-python-clients.ipynb** : this is the python MQTT client that subscribes to the local MQTT broker and publishes to Hono MQTT adapter.
