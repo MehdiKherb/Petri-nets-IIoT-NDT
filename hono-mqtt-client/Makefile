@@ -3,7 +3,7 @@ all: $(CONTIKI_PROJECT)
 
 CONTIKI = ../..
 
-MAKE_MAC = MAKE_MAC_TSCH
+#MAKE_MAC = MAKE_MAC_TSCH
 #MODULES += os/services/orchestra
 include $(CONTIKI)/Makefile.dir-variables
 MODULES += $(CONTIKI_NG_APP_LAYER_DIR)/mqtt
