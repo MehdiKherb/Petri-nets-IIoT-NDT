@@ -14,7 +14,7 @@ This repository represents the artifact of our paper entitled : "Constructing a 
   2. Creates a device _demo-device-001_ in this tenant.
   3. Creates a policy _org.acme:my-policy_ for Ditto.
   4. Creates a thing using the _devicePrototype.json_ file.
-  5. Sets up the connection between Ditto and Hono via AMQP.
+  5. Sets up the connection between Ditto and Hono via AMQP and uses the '_payloadMapping.js_' function to map json packets published by the IoT devices to Ditto protocol message.
 
 **Observability** : contains the logs and plots for the study on system observability conducted in our paper.
 
