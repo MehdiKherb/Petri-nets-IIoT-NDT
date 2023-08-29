@@ -26,7 +26,7 @@ This repository represents the artifact of our paper entitled : "Constructing a 
 
 **Real_net** : contains the logs and plots of the two considered Data Send Intervals for PDR prediction of the real network composed of two _OpenMotes_. As we already mentioned above, the difference is that in the real network we use TSCH to enable synchronization between the nodes, thus, ensuring the end-to-end delay calculation correctness. The average end-to-end delay and DSI values in the logs are in clock ticks, to convert to seconds : divide by 32768.
 
-**ProducerConsumerPN.ipynb** : this is the Timed Petri-net producer-consumer model that we developed. It requires the installation of SNAKES API with ''pip install SNAKES''.
+**ProducerConsumerPN.ipynb** : this is the Timed Petri-net producer-consumer model that we developed. It requires the installation of SNAKES API with ''pip install SNAKES'' and the '_tpn.py_' file.
 
 **MQTT-python-clients.ipynb** : this is the python MQTT client that subscribes to the local MQTT broker and publishes to Hono MQTT adapter.
 
