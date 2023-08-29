@@ -50,7 +50,7 @@
 
 
 /* data rate & payload size*/
-#define DATA_SEND_INTERVAL (0.07*CLOCK_SECOND)
+#define DATA_SEND_INTERVAL (0.1*CLOCK_SECOND)
 #define PAYLOAD_SIZE 80 /* on MAC level we get 98, without counting the packetbuf header*/
 
 /* MQTT publishing rate */
