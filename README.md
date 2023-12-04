@@ -1,5 +1,6 @@
 # Petri-nets-IIoT-NDT
 This repository represents the artifact of our paper entitled : "Constructing a Network Digital Twin through Formal Modeling: Tackling the Virtual-Real Mapping Challenge in IIoT Networks". It contains all the scripts for deploying an IoT network and its Digital Twin using Eclipse Hono + Ditto. A Timed Petri-net is used to model the network. 
+Full paper : Mehdi Kherbache, Arsalan Ahmed, Moufida Maimour, Eric Rondeau, Constructing a Network Digital Twin through formal modeling: Tackling the virtual–real mapping challenge in IIoT networks, Internet of Things, Volume 24, 2023, 101000, ISSN 2542-6605, https://doi.org/10.1016/j.iot.2023.101000. (https://www.sciencedirect.com/science/article/pii/S2542660523003232)
 
 **hono-mqtt-client-cooja** : this is the MQTT client firmware of the simulated IoT devices, it is developed in Contiki-NG. "_client.c_" is to be deployed on motes created in Cooja simulator and its function is to publish to a mosquitto broker running locally (the required mosquitto version is 1.6.9). The published values include : the average packets end-to-end delay, the node ID, and the current data send interval of the node. The Cooja simulation file is entitled _MQTT_LATEST2.csc_. It is important to recompile the client.c for the cooja mote type in order for the simulation to run correctly.
 
